@@ -12,7 +12,6 @@
         "OPTIONAL. List of sources of funding (grant numbers)"
     ],
     "ReferencesAndLinks": [
-        "OPTIONAL. List of references to publication that contain information on the dataset, or links",
         "https://doi.org/10.1101/2025.03.09.642197 ",
         "https://doi.org/10.1101/2025.04.11.643415"
     ],
