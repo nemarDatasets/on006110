@@ -3,9 +3,7 @@
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "License": "CC0",
-    "Authors": [
-        "OPTIONAL. List of individuals who contributed to the creation/curation of the dataset"
-    ],
+    "Authors": [],
     "Acknowledgements": "OPTIONAL. Text acknowledging contributions of individuals or institutions beyond those listed in Authors or Funding",
     "HowToAcknowledge": "Novelli, L. et al. (2025). PsiConnect: A Multimodal Neuroimaging Study of Psilocybin-Induced Changes in Brain and Behaviour. https://doi.org/10.1101/2025.04.11.643415\n\nStoliker, D. et al. (2025). Psychedelics Align Brain Activity with Context. 2025. https://doi.org/10.1101/2025.03.09.642197",
     "Funding": [
