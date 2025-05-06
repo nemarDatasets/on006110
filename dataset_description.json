@@ -3,7 +3,8 @@
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
-        ""
+        "",
+        "Adeel Razi"
     ],
     "Acknowledgements": "The authors acknowledge the facilities and scientific and technical assistance of the National Imaging Facility (NIF), a National Collaborative Research Infrastructure Strategy (NCRIS) capability at Monash Biomedical Imaging (MBI), a Technology Research Platform at Monash University. This research is funded by the Australian Research Council (Refs:  DE170100128  and  DP200100757) and the Australian National Health and Medical Research Council (Investigator Grant 1194910). Adeel Razi is affiliated with The Wellcome Centre for Human Neuroimaging, supported by core funding from Wellcome [203147/Z/16/Z]. Adeel Razi is a CIFAR Azrieli Global Scholar in the Brain, Mind & Consciousness Program. We also acknowledge USONA Institute for providing psilocybin through their \"Investigational Drug Supply Program\".",
     "License": "CC0",
