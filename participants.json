@@ -1,5 +1,8 @@
 {
     "participant_id": {
         "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age at baseline session (ses-01)"
     }
 }
