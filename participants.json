@@ -4,5 +4,8 @@
     },
     "age": {
         "Description": "Age at baseline session (ses-01)"
+    },
+    "dose_mg_per_kg": {
+        "Description": "Psilocybin dose (mg/kg)"
     }
 }
