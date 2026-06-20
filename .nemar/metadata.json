@@ -1,50 +1,230 @@
 {
   "version": "2.0",
-  "dataset_id": "on006110",
-  "source": "openneuro",
-  "source_id": "ds006110",
+  "pipeline_stage": "enriched",
   "title": "PsiConnect",
-  "authors": {
-    "Adeel Razi": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Adeel Razi": {
+      "orcid": "0000-0002-0779-9439",
+      "affiliations": [
+        {
+          "name": "School of Psychological Sciences and Monash Biomedical Imaging, Monash University, Australia"
+        },
+        {
+          "name": "Wellcome Centre for Human Neuroimaging, University College London, United Kingdom"
+        },
+        {
+          "name": "CIFAR Azrieli Global Scholars Program, Toronto, Canada"
+        }
+      ]
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006110.v1.2.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006110",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006110",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.04.11.643415",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.03.09.642197",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "anat",
-    "dwi",
-    "eeg",
-    "fmap",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "dwi",
-    "eeg",
-    "fmap",
-    "func"
-  ],
   "funding_references": [
-    {
-      "funder_name": "Australian Research Council (Refs: DE170100128 and DP200100757)"
-    },
-    {
-      "funder_name": "Australian National Health and Medical Research Council (Investigator Grant 1194910)"
-    },
     {
       "funder_name": "CIFAR Azrieli Mind & Consciousness Program"
     },
     {
       "funder_name": "USONA Institute Investigational Drug Supply Program"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DE170100128"
+    },
+    {
+      "funder_name": "Australian Research Council",
+      "award_number": "DP200100757"
+    },
+    {
+      "funder_name": "Australian National Health and Medical Research Council",
+      "award_number": "1194910"
+    },
+    {
+      "funder_name": "CIFAR",
+      "award_title": "Azrieli Global Scholar in the Brain, Mind & Consciousness Program"
     }
   ],
-  "acknowledgements": "The authors acknowledge the facilities and scientific and technical assistance of the National Imaging Facility (NIF), a National Collaborative Research Infrastructure Strategy (NCRIS) capability at Monash Biomedical Imaging (MBI), a Technology Research Platform at Monash University. This research is funded by the Australian Research Council (Refs:  DE170100128 and DP200100757) and the Australian National Health and Medical Research Council (Investigator Grant 1194910). Adeel Razi is a CIFAR Azrieli Global Scholar in the Brain, Mind & Consciousness Program. We also acknowledge USONA Institute for providing psilocybin through their \"Investigational Drug Supply Program.\""
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "anat",
+    "func"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".2/fsaverage/label/Yeo_Brainmap_fsaverage_README",
+    ".2/participant_id",
+    ".2mm/README",
+    ".3d",
+    ".H",
+    ".K",
+    ".README",
+    ".T1",
+    ".T2",
+    ".annot",
+    ".area",
+    ".avg",
+    ".avg_curv",
+    ".avg_sulc",
+    ".avg_thickness",
+    ".backup",
+    ".bak",
+    ".bib",
+    ".bidsignore",
+    ".cmd",
+    ".crv",
+    ".csv",
+    ".ctab",
+    ".curv",
+    ".dat",
+    ".dat~",
+    ".defect_borders",
+    ".defect_chull",
+    ".defect_labels",
+    ".done",
+    ".env",
+    ".flat",
+    ".gii",
+    ".gz",
+    ".h5",
+    ".html",
+    ".inflated",
+    ".inflated_avg",
+    ".inflated_pre",
+    ".jacobian_white",
+    ".json",
+    ".label",
+    ".local-copy",
+    ".log",
+    ".lta",
+    ".m3z",
+    ".mat",
+    ".md",
+    ".mgh",
+    ".mgz",
+    ".mid",
+    ".midthickness",
+    ".mincost",
+    ".nii",
+    ".nofix",
+    ".old",
+    ".orig",
+    ".orig_avg",
+    ".param",
+    ".pial",
+    ".pial_avg",
+    ".pial_semi_inflated",
+    ".pointset",
+    ".preaparc",
+    ".premesh",
+    ".reg",
+    ".smoothwm",
+    ".sphere",
+    ".stats",
+    ".sulc",
+    ".sum",
+    ".svg",
+    ".tex",
+    ".thickness",
+    ".toml",
+    ".touch",
+    ".tsv",
+    ".tsv#",
+    ".txt",
+    ".volume",
+    ".white",
+    ".white_avg",
+    ".xfm",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed 8-week meditation training, enabling investigation of interactions between meditation, psilocybin, and brain function. Comprehensive behavioral and self-report measures capture acute and longitudinal cognitive and subjective effects with follow-ups to one year post-administration.",
+  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Behavioral and self-report measures were collected acutely and longitudinally through one-year follow-up.",
+  "keywords": [
+    {
+      "term": "Psilocybin",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011562"
+    },
+    {
+      "term": "fMRI",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
+    },
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "psychedelics"
+    },
+    {
+      "term": "meditation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+    },
+    {
+      "term": "brain connectivity",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001921"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "diffusion-weighted imaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D038524"
+    },
+    {
+      "term": "longitudinal study",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008137"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "structural MRI",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+    },
+    {
+      "term": "resting-state fMRI"
+    },
+    {
+      "term": "concurrent EEG-fMRI"
+    }
+  ],
+  "source_hash": "82c87367271533fd9fd41063126f2ccbfe7037789e555f05345b868b6353c0ba"
 }
