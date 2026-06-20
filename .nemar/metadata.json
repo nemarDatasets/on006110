@@ -1,0 +1,50 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006110",
+  "source": "openneuro",
+  "source_id": "ds006110",
+  "title": "PsiConnect",
+  "authors": {
+    "Adeel Razi": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006110.v1.2.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "anat",
+    "dwi",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "dwi",
+    "eeg",
+    "fmap",
+    "func"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Australian Research Council (Refs: DE170100128 and DP200100757)"
+    },
+    {
+      "funder_name": "Australian National Health and Medical Research Council (Investigator Grant 1194910)"
+    },
+    {
+      "funder_name": "CIFAR Azrieli Mind & Consciousness Program"
+    },
+    {
+      "funder_name": "USONA Institute Investigational Drug Supply Program"
+    }
+  ],
+  "acknowledgements": "The authors acknowledge the facilities and scientific and technical assistance of the National Imaging Facility (NIF), a National Collaborative Research Infrastructure Strategy (NCRIS) capability at Monash Biomedical Imaging (MBI), a Technology Research Platform at Monash University. This research is funded by the Australian Research Council (Refs:  DE170100128 and DP200100757) and the Australian National Health and Medical Research Council (Investigator Grant 1194910). Adeel Razi is a CIFAR Azrieli Global Scholar in the Brain, Mind & Consciousness Program. We also acknowledge USONA Institute for providing psilocybin through their \"Investigational Drug Supply Program.\""
+}
