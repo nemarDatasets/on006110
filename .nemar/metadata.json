@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "PsiConnect",
-  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed 8-week meditation training, enabling investigation of interactions between meditation, psilocybin, and brain function. Comprehensive behavioral and self-report measures tracked acute and longitudinal cognitive and subjective effects through one-year follow-up.",
-  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions (guided meditation, music listening, movie watching). Behavioral and self-report measures were collected acutely and longitudinally through one-year follow-up. Half of participants (n=31) underwent 8-week meditation training prior to psilocybin administration.",
+  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed an 8-week meditation training program to examine interactions among meditation, psilocybin, and brain function, with comprehensive behavioral assessments and follow-ups extending to one year post-administration.",
+  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Behavioral and self-report measures were collected acutely and longitudinally.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -31,7 +31,7 @@
     {
       "term": "fMRI",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005973"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
     },
     {
       "term": "EEG",
@@ -39,46 +39,31 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "meditation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
-    },
-    {
-      "term": "psychedelics",
+      "term": "Psychedelics",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D006213"
     },
     {
-      "term": "resting-state"
+      "term": "Meditation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+    },
+    {
+      "term": "resting-state networks"
+    },
+    {
+      "term": "multimodal neuroimaging"
     },
     {
       "term": "diffusion-weighted imaging",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D038524"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018810"
     },
     {
-      "term": "structural MRI",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+      "term": "longitudinal study"
     },
     {
-      "term": "naturalistic conditions"
-    },
-    {
-      "term": "behavioral measures"
-    },
-    {
-      "term": "longitudinal study",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008137"
-    },
-    {
-      "term": "human subjects",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006801"
+      "term": "naturalistic stimuli"
     }
   ],
   "related_identifiers": [
