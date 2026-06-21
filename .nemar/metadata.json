@@ -29,52 +29,44 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D011562"
     },
     {
-      "term": "fMRI"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "meditation"
-    },
-    {
-      "term": "psychedelics"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "psychedelic-assisted therapy"
-    },
-    {
-      "term": "naturalistic viewing"
-    },
-    {
-      "term": "multi-echo fMRI"
-    },
-    {
-      "term": "concurrent EEG-fMRI"
-    },
-    {
-      "term": "diffusion-weighted imaging"
-    },
-    {
-      "term": "Magnetic Resonance Imaging",
+      "term": "fMRI",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
     },
     {
-      "term": "Electroencephalography",
+      "term": "EEG",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Meditation",
+      "term": "multimodal neuroimaging",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D059906"
+    },
+    {
+      "term": "meditation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008313"
+    },
+    {
+      "term": "psychedelics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011619"
+    },
+    {
+      "term": "resting-state networks",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000073516"
+    },
+    {
+      "term": "diffusion-weighted imaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D038524"
+    },
+    {
+      "term": "DTI",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D038524"
     }
   ],
   "related_identifiers": [
