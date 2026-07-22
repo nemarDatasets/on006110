@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "PsiConnect",
-  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed an 8-week meditation training program to examine interactions among meditation, psilocybin, and brain function, with comprehensive behavioral assessments and follow-ups extending to one year post-administration.",
-  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Behavioral and self-report measures were collected acutely and longitudinally.",
+  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed an 8-week meditation training program to examine interactions among meditation, psilocybin, and brain function, with comprehensive behavioral assessments and follow-ups extending to one year post-administration. Data is curated according to open science principles to ensure accessibility and compatibility with established neuroimaging pipelines.",
+  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Behavioral and self-report measures captured acute and longitudinal cognitive and subjective effects with follow-ups to one year post-administration.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -39,41 +39,53 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "Psychedelics",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006213"
+      "term": "multimodal neuroimaging"
     },
     {
-      "term": "Meditation",
+      "term": "meditation",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+    },
+    {
+      "term": "hallucinogens",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006213"
     },
     {
       "term": "resting-state networks"
     },
     {
-      "term": "multimodal neuroimaging"
-    },
-    {
       "term": "diffusion-weighted imaging",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018810"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D038524"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "diffusion tensor imaging"
+    },
+    {
+      "term": "concurrent EEG-fMRI"
+    },
+    {
+      "term": "naturalistic stimuli"
     },
     {
       "term": "longitudinal study"
     },
     {
-      "term": "naturalistic stimuli"
+      "term": "consciousness",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003243"
+    },
+    {
+      "term": "altered states of consciousness"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006110",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006110",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -91,6 +103,11 @@
       "identifier": "10.18112/openneuro.ds006110.v1.2.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006110",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
