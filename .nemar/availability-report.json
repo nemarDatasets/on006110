@@ -1,0 +1,79 @@
+{
+  "dataset_id": "on006110",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:03:03.451Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds006110"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 66110,
+    "files_declared": 66120,
+    "bytes_present": 1001617174483,
+    "bytes_declared": 1004663010141,
+    "pct_bytes": 0.996968301184322
+  },
+  "missing": [
+    {
+      "path": "derivatives/fmriprep-22.0.2/participant_id",
+      "key": "SHA256E-s0--e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855participant_id",
+      "declared_size": 0,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC001/ses-01/func/.~lock.sub-PC001_ses-01_task-movie_run-1_desc-confounds_timeseries.tsv#",
+      "key": "SHA256E-s93--dfd4a1a84c3e459099d66367646d57811beb6757eda8a8d908084259ececbff2.~lock.sub-PC001_ses-01_task-movie_run-1_desc-confounds_timeseries.tsv#",
+      "declared_size": 93,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC003/ses-01/func/.~lock.sub-PC003_ses-01_task-meditation_run-1_desc-confounds_timeseries.tsv#",
+      "key": "SHA256E-s93--93f20ba1c3779e169756ac4ab408d42cde67e0ba06671fbaf2a88e2b8b2a70f4.~lock.sub-PC003_ses-01_task-meditation_run-1_desc-confounds_timeseries.tsv#",
+      "declared_size": 93,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC003/ses-01/func/.~lock.sub-PC003_ses-01_task-rest_run-1_desc-confounds_timeseries.tsv#",
+      "key": "SHA256E-s93--cce56430e84b3e287ce3e10aaf1492dec2c23c9ff4f4092e272a99c7c5cc2497.~lock.sub-PC003_ses-01_task-rest_run-1_desc-confounds_timeseries.tsv#",
+      "declared_size": 93,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC011/ses-01/func/sub-PC011_ses-01_task-rest_run-1_space-MNI152NLin2009cAsym_boldref.nii.gz",
+      "key": "SHA256E-s715613--1d6ace0badf5f7fc3945356cab8bee33979e2ed4120871d730fa88d792de0347.nii.gz",
+      "declared_size": 715613,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC021/ses-01/func/sub-PC021_ses-01_task-meditation_run-1_echo-4_desc-preproc_bold.nii.gz",
+      "key": "SHA256E-s109152313--23a06cbf0a3c1bc6b208534e376620d5769943f2b440364a6421ca807b7ec63b.nii.gz",
+      "declared_size": 109152313,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/fmriprep-22.0.2/sub-PC203/ses-02/func/sub-PC203_ses-02_task-music_run-1_echo-3_desc-preproc_bold.nii.gz",
+      "key": "SHA256E-s188610002--8e3601e26f950300aa670d46dd1d30d94bba1f5122c6fce531258e3eb4128a5c.nii.gz",
+      "declared_size": 188610002,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/freesurfer-7.2/fsaverage/label/Yeo_Brainmap_fsaverage_README",
+      "key": "SHA256E-s9973--486a94f72399fc8101a2c2fde84a70c2f4aae57bd49903131b4f6a730df886b0Yeo_Brainmap_fsaverage_README",
+      "declared_size": 9973,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/tedana-0.0.12-GLM/sub-PC218/ses-01/func/task-meditation/sub-PC218_ses-01_task-meditation_run-1_desc-optcomGLM_fsLR_32k.mat",
+      "key": "SHA256E-s96956897--6689f04cd1c822524d3ec7e292ff86817a061c1affe7d6fcb9f51e053b5e9d34.mat",
+      "declared_size": 96956897,
+      "reason": "absent"
+    },
+    {
+      "path": "sub-PC008/ses-02/fmap/sub-PC008_ses-02_acq-LRe4_dir-ROW_run-1_epi.nii.gz",
+      "key": "SHA256E-s2054321--eccd6d7428a1d5fd02bfc18692c10d0c40e80a537aceb814296d0d35aa7d375b.nii.gz",
+      "declared_size": 2054321,
+      "reason": "absent"
+    }
+  ]
+}
