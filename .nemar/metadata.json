@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "PsiConnect",
+  "description": "PsiConnect is a multimodal neuroimaging dataset examining context-dependent neural and subjective effects of psilocybin in 62 participants scanned before and after a 19 mg dose. It combines multi-echo functional, structural and diffusion-weighted MRI with EEG during resting state and three naturalistic conditions (guided meditation, music listening, movie watching). Half of the cohort completed an 8-week meditation training program. Behavioural and self-report measures with follow-ups up to one year support study of acute and longitudinal effects.",
+  "methods_description": "Participants underwent multi-echo fMRI, structural MRI, diffusion-weighted MRI and EEG before and after administration of 19 mg psilocybin, during rest, guided meditation, music listening and movie watching. Half of the participants completed an 8-week meditation training program. Behavioural and self-report batteries were collected acutely and at follow-ups up to one year.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,6 +11,33 @@
       "orcid": "0000-0002-0779-9439"
     }
   },
+  "keywords": [
+    {
+      "term": "Psilocybin",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011562"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "diffusion-weighted MRI"
+    },
+    {
+      "term": "Meditation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019122"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "psychedelics"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006110.v1.2.0",
@@ -33,7 +62,7 @@
     {
       "identifier": "10.1101/2025.03.09.642197",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     }
   ],
   "funding_references": [
@@ -52,17 +81,20 @@
       "award_number": "DP200100757"
     },
     {
-      "funder_name": "Australian National Health and Medical Research Council",
-      "award_number": "1194910"
+      "funder_name": "National Health and Medical Research Council",
+      "award_number": "1194910",
+      "award_title": "Investigator Grant"
     },
     {
-      "funder_name": "CIFAR",
-      "award_title": "Azrieli Global Scholar in the Brain, Mind & Consciousness Program"
+      "funder_name": "CIFAR"
+    },
+    {
+      "funder_name": "USONA Institute"
     }
   ],
   "resource_type_general": "Dataset",
   "sizes": [
-    "1.0 TB (59933 files)"
+    "933 GB (59937 files)"
   ],
   "formats": [
     ".2/fsaverage/label/Yeo_Brainmap_fsaverage_README",
@@ -150,57 +182,6 @@
     ".xfm",
     ".yaml",
     ".yml"
-  ],
-  "description": "PsiConnect is a large-scale multimodal neuroimaging study investigating context-dependent neural and subjective effects of psilocybin in 62 participants. The dataset combines functional, structural, and diffusion-weighted MRI with concurrent EEG acquired before and after psilocybin administration (19 mg), incorporating resting-state and naturalistic conditions (guided meditation, music listening, movie watching). Half the cohort completed an 8-week meditation training program, enabling investigation of interactions between meditation, psilocybin, and brain function. Comprehensive behavioral and self-report measures were collected acutely and longitudinally up to one year post-administration.",
-  "methods_description": "Multimodal neuroimaging acquisition including multi-echo fMRI (enhanced signal-to-noise ratio and reduced susceptibility artifacts), structural MRI, diffusion-weighted imaging, and concurrent EEG. Study design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Behavioral and self-report measures were collected at multiple timepoints including acute and longitudinal follow-ups to one year post-administration.",
-  "keywords": [
-    {
-      "term": "Psilocybin",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011562"
-    },
-    {
-      "term": "fMRI",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000080788"
-    },
-    {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain Mapping",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    },
-    {
-      "term": "meditation"
-    },
-    {
-      "term": "psychedelics"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "diffusion-weighted imaging"
-    },
-    {
-      "term": "structural MRI"
-    },
-    {
-      "term": "naturalistic viewing"
-    },
-    {
-      "term": "consciousness"
-    },
-    {
-      "term": "altered states"
-    }
   ],
   "source_hash": "4024814c93111b05e6146160e1fd64cbba57313a373f144c6bb320e92a906069"
 }
